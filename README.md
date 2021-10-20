@@ -6,6 +6,10 @@ This is an application that uses and Express.js backend to save and retrive the 
   
 ## Usage
   
+The appliction can be found at [https://whispering-everglades-03607.herokuapp.com/](https://whispering-everglades-03607.herokuapp.com/)
+  
+Or from the console you can run: npm start
+
 ![screenshot](images/screenshot.png)
   
 ## Credits
