@@ -6,7 +6,7 @@ This is an application that uses and Express.js backend to save and retrive the 
   
 ## Usage
   
-![screenshot](assets/images/screenshot.png)
+![screenshot](images/screenshot.png)
   
 ## Credits
   
