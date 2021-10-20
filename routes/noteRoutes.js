@@ -19,7 +19,6 @@ router.get("/:id",(req,res)=>{
 })
 
 router.post("/",(req,res)=>{
-    console.log(req.body);
     notes.push(req.body);
     fs.writeFileSync("./db/db.json",JSON.stringify(notes,null,4))
     console.log("Note Written")
@@ -28,7 +27,6 @@ router.post("/",(req,res)=>{
 
 router.delete("/:id",(req,res)=>{
     const noteIndex = getNoteIndex(req.params.id)
-    console.log(noteIndex)
     if (noteIndex === undefined || noteIndex < 0){
         return res.status(404).json({message:"No Note Found"})
     }
